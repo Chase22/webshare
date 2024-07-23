@@ -14,6 +14,7 @@
   const peerWrapper = new PeerWrapper(
     (newState) => {
       state = newState
+      console.log(PeerState[newState])
     },
     (newId) => {
       id = newId

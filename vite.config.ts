@@ -10,5 +10,6 @@ export default defineConfig({
       key: readFileSync('ssl/key.pem'),
       cert: readFileSync('ssl/cert.pem')
     }
-  }
+  },
+  base: "/webshare/"
 })
